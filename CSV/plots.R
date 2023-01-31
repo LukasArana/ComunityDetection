@@ -1,8 +1,9 @@
 library(RVCompare)
 library(ggplot2)
+library(scmamp)
 setwd ("/home/lufanta/Desktop/2022/BH/proiektua/CSV")
 csv_data <- read.csv("REPETIZIOAK")
-
+1
 csv_data
 
 X_A <- csv_data$EDA1
@@ -68,7 +69,6 @@ is_minimization <- FALSE
 cumulative_difference_plot(X_A, X_B,
                            isMinimizationProblem = is_minimization,
                            labelA = "EDA", labelB = "SIMULATED", ignoreMinimumLengthCheck = TRUE)
-11
 
 
 
